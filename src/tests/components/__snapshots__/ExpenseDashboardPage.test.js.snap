@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expense dashboard page correctly 1`] = `
+<div>
+  <h1>
+    Dashboard Page
+  </h1>
+  <Connect(ExpenseListFilters) />
+  <Connect(ExpenseList) />
+</div>
+`;
