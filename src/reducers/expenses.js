@@ -1,6 +1,7 @@
 const expensesRecuderDefaultState = [];
 
 const expensesReducer = (state = expensesRecuderDefaultState, action) => {
+    console.log(state);
     switch (action.type) {
         case 'ADD_EXPENSE': 
             return [
@@ -19,6 +20,8 @@ const expensesReducer = (state = expensesRecuderDefaultState, action) => {
                     return expense
                 }
             })
+        case 'SET_EXPENSES':
+            return action.expenses;
         default:
             return state;
     }
