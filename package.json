@@ -10,6 +10,7 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.5.0",
     "firebase": "^7.17.1",
+    "history": "^5.0.0",
     "jest-enzyme": "^7.1.2",
     "moment": "^2.27.0",
     "node-sass": "^4.14.0",
